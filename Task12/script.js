@@ -1,6 +1,9 @@
-function calculateCompoundInterest(Principal, Rate, Time, numberOfTimesInterestApplied) {
-    let amount = Principal * Math.pow(1 + (Rate / numberOfTimesInterestApplied), numberOfTimesInterestApplied * Time);
-    return amount;
-}
+let P = 1000; // Principal amount
+let R = 0.05; // Annual interest rate (5%)
+let T = 3; // Time in years
+let n = 12; // Number of times interest applied per year
 
-console.log("The compound interest after 3 years is:", calculateCompoundInterest(1000, 0.05, 3, 12));
+ let amount = P * Math.pow(1 + (R / n), n * T); 
+ let result = amount - P; // Compound interest
+
+console.log("The compound interest after " + T + " years is:", result);
