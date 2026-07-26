@@ -51,3 +51,23 @@ This task contains several beginner-level JavaScript practice programs, includin
 - Each example uses simple loops and conditional statements.
 - The script prints the results to the browser console.
 - The Armstrong-number example now correctly checks whether the sum of each digit raised to the number of digits equals the original number.
+
+## Task 15: Run instructions
+
+Task 15 includes a dedicated guide with steps to run the files in this folder.
+
+### Files
+- [Task15/README.md](Task15/README.md): instructions for running Task 5 files
+
+### Run options
+- Open any HTML file in a browser or with Live Server.
+- Run JavaScript files from the terminal with Node.js.
+
+## How to run files in this project
+
+- For HTML files: open them in the browser or with Live Server.
+- For JavaScript files: run them using Node from the project root, for example:
+
+```bash
+node Task15/script.js
+```
