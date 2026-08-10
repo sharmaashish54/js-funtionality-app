@@ -10,7 +10,7 @@ body{
 }
 
 
-div{
+.custom-made-class{
     width: 100vw;
     height: 100vh;
     padding: 10vh 25vw;
@@ -18,13 +18,13 @@ div{
    
 }
 
-div img{
+.custom-made-class img{
     width: 100%;
     height: auto;
     display: block;
 }
 
-div button{
+.custom-made-class button{
     width: 100%;
     padding: 10px;
     background: linear-gradient(to right, orange, greenyellow);
@@ -32,5 +32,6 @@ div button{
     font-size: 16px;
     border: none;
     border-radius: 5px;
+    font:100% Arial, Helvetica, sans-serif;
 
 }
