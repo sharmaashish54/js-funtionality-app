@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4d5b66;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.page {
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.navbar {
+  height: 14vh;
+  min-height: 88px;
+  padding: 0 6.5%;
+  white-space: nowrap;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 5.1vh;
+  color: #34495a;
+  font-size: clamp(25px, 2vw, 34px);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 5.5vh;
+  margin-left: 23.5%;
+}
+
+.nav-links a {
+  display: inline-block;
+  margin-right: clamp(16px, 2vw, 34px);
+  color: #78838b;
+  font-size: clamp(15px, 1.35vw, 22px);
+  text-decoration: none;
+}
+
+.nav-links a:last-child {
+  margin-right: 0;
+}
+
+.nav-links a:hover {
+  color: #10a9f4;
+}
+
+.username {
+  display: inline-block;
+  vertical-align: middle;
+  float: right;
+  margin-top: 3.6vh;
+  padding: 23px 22px;
+  border-radius: 17px;
+  background-color: #e8f6ff;
+  color: #13a9f5;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.hero {
+  height: 86vh;
+  min-height: 510px;
+  padding: 0 10%;
+  font-size: 0;
+  white-space: nowrap;
+}
+
+.hero-copy,
+.hero-visual {
+  display: inline-block;
+  vertical-align: middle;
+  white-space: normal;
+  font-size: 16px;
+}
+
+.hero-copy {
+  width: 56%;
+  margin-top: 1vh;
+}
+
+.hero-copy h1 {
+  margin: 0 0 12px;
+  color: #4b5a65;
+  font-size: clamp(32px, 3.55vw, 58px);
+  line-height: 1.42;
+  letter-spacing: -1.5px;
+  font-weight: 750;
+}
+
+.hero-copy h1 span {
+  color: #12a8f5;
+}
+
+.hero-copy p {
+  margin: 0 0 44px;
+  color: #9aa3aa;
+  font-size: clamp(16px, 1.5vw, 24px);
+  line-height: 1.48;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 30px 44px;
+  border-radius: 25px;
+  background: linear-gradient(100deg, #08a9f6, #37b7f5);
+  color: #ffffff;
+  font-size: 19px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(18, 168, 245, 0.22);
+}
+
+.hero-visual {
+  width: 44%;
+  text-align: center;
+}
+
+.hero-visual img {
+  display: inline-block;
+  width: 100%;
+  max-width: 490px;
+  max-height: 65vh;
+  object-fit: contain;
+  vertical-align: middle;
+}
